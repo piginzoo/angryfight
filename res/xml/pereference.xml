@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+            android:key="REFRESH_REQUENCY"
+            android:defaultValue="15"
+            android:title="屏幕刷新频率" 
+            android:summary=""
+			android:singleLine="true"
+            android:dialogTitle="屏幕刷新频率" />
+    <EditTextPreference
+            android:key="HEAD_MOVE_STEP"
+            android:defaultValue="30"
+            android:title="头左右移动的位移（像素）" 
+            android:summary=""
+            android:singleLine="true"
+            android:dialogTitle="头左右移动的位移（像素）" />
+    <EditTextPreference
+            android:key="HEAD_MOVE_REQUENCY"
+            android:defaultValue="3"
+            android:title="头左右移动的位移的周期" 
+            android:singleLine="true"
+            android:dialogTitle="头左右移动的位移的周期" />
+    <EditTextPreference
+            android:key="PAUSE_TIME"
+            android:defaultValue="1000"
+            android:title="暂停时间（毫秒）" 
+            android:summary=""
+            android:singleLine="true"
+            android:dialogTitle="暂停时间（毫秒）" />                                    
+</PreferenceScreen>

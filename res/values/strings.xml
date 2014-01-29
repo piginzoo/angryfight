@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AngryFight">Fight your enemy</string>
+    <string name="app_name">AngryFight</string>
+	<string name="pereference">pereference</string>
+	<string name="preferencesActivity">Preferences Activity</string>
+	<string-array name="colors">
+        <item>red</item>
+        <item>orange</item>
+        <item>yellow</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>violet</item>
+    </string-array>
+    
+</resources>
